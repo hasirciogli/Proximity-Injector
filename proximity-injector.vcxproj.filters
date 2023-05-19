@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="mmap\mmap.cpp" />
+    <ClCompile Include="vac-bypass\vbypass.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="mmap\Byte.h" />
+    <ClInclude Include="mmap\mmap.hpp" />
+    <ClInclude Include="vac-bypass\bypassByte.h" />
+    <ClInclude Include="vac-bypass\VBMem.h" />
+    <ClInclude Include="vac-bypass\vbypass.h" />
+  </ItemGroup>
+</Project>
