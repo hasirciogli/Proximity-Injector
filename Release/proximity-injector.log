@@ -1,7 +1,2 @@
-﻿  {{xgTaskID=00000004}}
-  mmap.cpp
-  {{xgTaskID=00000000}}
-  {{xgTaskID=00000005}}
-  
-  {{xgTaskID=00000000}}
+﻿  vbypass.cpp
   proximity-injector.vcxproj -> D:\my-codes\c++\proximity-injector\Release\proximity-injector.exe

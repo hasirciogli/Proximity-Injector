@@ -106,7 +106,7 @@ DWORD dwGetModuleBaseAddress(DWORD dwProcessID, TCHAR* lpszModuleName)
         {
             do
             {
-                if (_tcscmp(ModuleEntry32.szModule, lpszModuleName) == 0)
+                if (_tcscmp(ModuleEntry32.szModule, lpszModuleName) == 0)   
                 {
                     dwModuleBaseAddress = (DWORD)ModuleEntry32.modBaseAddr;
                     break;
@@ -120,6 +120,8 @@ DWORD dwGetModuleBaseAddress(DWORD dwProcessID, TCHAR* lpszModuleName)
 
 void BypassLoader::LoaderLoop()
 {
+
+#if 0
 #ifndef _DEBUG
 
     std::cout << "Cheat loading has been started" << std::endl;
@@ -218,6 +220,8 @@ void BypassLoader::LoaderLoop()
     std::cout << "Loading Proximity (Kernel Process Lock)" << std::endl;
 
     Sleep(16000);
+#endif
+
 #endif
 
     //LibraryLoader::inject(LibLoaderFunc::FindProcessId("csgo.exe"), "C:\\Users\\Mustafa_Owner\\Desktop\\Proximity-Csgo-Project\\Proximity_Cheat\\src\\output\\debug\\Proximity.dll");
